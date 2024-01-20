@@ -4,8 +4,8 @@ const cors = require("cors");
 const socketIO = require("socket.io");
 const mongoose = require('mongoose');
 const { MongoClient } = require('mongodb');
-const url = 'mongodb+srv://nitesh620877:nitesh620877@cluster1.hphom4r.mongodb.net/?retryWrites=true&w=majority';
-const dbName = 'database1';
+const url = '';
+const dbName = '';
 const collectionName = 'chat_data';
 const auth_collection = 'authentication'
 const client = new MongoClient(url);
